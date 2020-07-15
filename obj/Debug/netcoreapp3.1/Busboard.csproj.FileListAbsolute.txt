@@ -1,0 +1,14 @@
+/Users/Humphrey.Codringtonzoopla.co.uk/zoopla/Corndel/Busboard/bin/Debug/netcoreapp3.1/Busboard.deps.json
+/Users/Humphrey.Codringtonzoopla.co.uk/zoopla/Corndel/Busboard/bin/Debug/netcoreapp3.1/Busboard.runtimeconfig.json
+/Users/Humphrey.Codringtonzoopla.co.uk/zoopla/Corndel/Busboard/bin/Debug/netcoreapp3.1/Busboard.runtimeconfig.dev.json
+/Users/Humphrey.Codringtonzoopla.co.uk/zoopla/Corndel/Busboard/bin/Debug/netcoreapp3.1/Busboard.dll
+/Users/Humphrey.Codringtonzoopla.co.uk/zoopla/Corndel/Busboard/bin/Debug/netcoreapp3.1/Busboard.pdb
+/Users/Humphrey.Codringtonzoopla.co.uk/zoopla/Corndel/Busboard/bin/Debug/netcoreapp3.1/RestSharp.dll
+/Users/Humphrey.Codringtonzoopla.co.uk/zoopla/Corndel/Busboard/obj/Debug/netcoreapp3.1/Busboard.csprojAssemblyReference.cache
+/Users/Humphrey.Codringtonzoopla.co.uk/zoopla/Corndel/Busboard/obj/Debug/netcoreapp3.1/Busboard.AssemblyInfoInputs.cache
+/Users/Humphrey.Codringtonzoopla.co.uk/zoopla/Corndel/Busboard/obj/Debug/netcoreapp3.1/Busboard.AssemblyInfo.cs
+/Users/Humphrey.Codringtonzoopla.co.uk/zoopla/Corndel/Busboard/obj/Debug/netcoreapp3.1/Busboard.csproj.CoreCompileInputs.cache
+/Users/Humphrey.Codringtonzoopla.co.uk/zoopla/Corndel/Busboard/obj/Debug/netcoreapp3.1/Busboard.csproj.CopyComplete
+/Users/Humphrey.Codringtonzoopla.co.uk/zoopla/Corndel/Busboard/obj/Debug/netcoreapp3.1/Busboard.dll
+/Users/Humphrey.Codringtonzoopla.co.uk/zoopla/Corndel/Busboard/obj/Debug/netcoreapp3.1/Busboard.pdb
+/Users/Humphrey.Codringtonzoopla.co.uk/zoopla/Corndel/Busboard/obj/Debug/netcoreapp3.1/Busboard.genruntimeconfig.cache

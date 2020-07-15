@@ -1,3 +1,6 @@
+using System;
+using System.Collections.Generic;
+
 namespace Busboard
 {
     public class BusDepartureResponse
@@ -25,4 +28,3 @@ namespace Busboard
     }
 }
 
-}

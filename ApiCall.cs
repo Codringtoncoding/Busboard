@@ -1,24 +1,28 @@
 using System;
 using RestSharp;
-using RestSharp.Authenticators;
-using System.Collection.Generic;
 
 namespace Busboard
 {
     public class ApiCall
     {
-        public string Name { get; set;}
-        public List<Departures> Departures {get; set;}
-             
-
-
-        public static void GetApiRequest(String ApiCall)
+        private RestClient client;
+        public ApiCall()
         {
-            var client = new RestClient("https://transportapi.com");
-            var request = new RestRequest("Busboard/bus_timetable.json",DataFormat.Json)
-            .AddQueryParameter("app_id=57f92325&app_key=2d2f58df70eea1ad52dfd4613d9b50f4&group=route&nextbuses=yes", string);
-            var response = client.Get<Departures>(request);
-            
+            client = new RestClient("https://transportapi.com/");
+  ;
         }
+        public BusDepartureResponse GetBusDeparturesForStop(String stopcode)
+        {
+       
+            var request = new RestRequest("/v3/uk/bus/stop/490008660N/live.json?")
+            .AddQueryParameter("app_id", "57f92325")
+            .AddQueryParameter("app_key", "2d2f58df70eea1ad52dfd4613d9b50f4")
+            .AddQueryParameter("group", "no")
+            .AddQueryParameter("nextbuses", "yes");
+            
+            var response = client.Get<BusDepartureResponse>(request);
+            return response.Data;
+        }
+        
     }
 }

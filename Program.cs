@@ -9,7 +9,12 @@ namespace Busboard
     {
         static void Main(string[] args)
         {
-            car transport
+            
+            var apiCall = new ApiCall();
+
+            var departures = apiCall.GetBusDeparturesForStop("490008660N");
+            Console.Write(departures);
+    
         }
     }
 }
