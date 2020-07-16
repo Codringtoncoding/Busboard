@@ -14,7 +14,9 @@ namespace Busboard
 
         public PostCodeResponse GetPostCodeForLongLat(string postcode)
         {
-            var postcoderequest = new RestClient("https://api.postcodes.io/postcodes/W105LY/");
+            var postcoderequest = new RestRequest("postcodes/W105LY/");
+            // .AddUrlSegment("postcode", postcode);
+
             
             var response = client.Get<PostCodeResponse>(postcoderequest);
             return response.Data;
