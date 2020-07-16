@@ -26,5 +26,7 @@ namespace Busboard
         public string ExpectedArrivalTime {get; set;}
 
     }
+
+    
 }
 

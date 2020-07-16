@@ -23,7 +23,7 @@ namespace Busboard
             
             var response = client.Get<BusDepartureResponse>(request);
             return response.Data;
-        }
-        
+        } 
+
     }
 }
